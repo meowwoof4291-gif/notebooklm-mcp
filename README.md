@@ -78,6 +78,7 @@ Manual form — drop into `~/.claude.json`:
     }
   }
 }
+{"mcpServers":{"notebooklm":{"command":"npx","args":["notebooklm-mcp@latest"]}}}
 ```
 
 For a local build, replace `command`/`args` with `"command": "node"`, `"args": ["/absolute/path/to/dist/index.js"]`.
